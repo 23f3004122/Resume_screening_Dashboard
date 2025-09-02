@@ -1,0 +1,8 @@
+Aditi Kapoor
+Email: aditi.kapoor@example.com | Phone: +91-9197613238
+
+Profile Summary
+Salesforce Engineer with 2 years of experience building scalable solutions on the Salesforce platform. Hands-on with Flows, Sales Cloud, Page Layouts, Service Cloud, Jira, Lightning, DevOps, Reports.\nExperience
+- Built Lightning Web Components (LWC) and Apex classes for Sales Cloud and Service Cloud.
+- Implemented integrations using REST API and OAuth; deployed via SFDX and CI/CD.
+- Wrote test classes with >85% coverage; used Git and Jira for DevOps workflows.\nSkills\n- Flows\n- Sales Cloud\n- Page Layouts\n- Service Cloud\n- Jira\n- Lightning\n- DevOps\n- Reports\n- SFDX\n- Sharing Rules\n- MuleSoft\n- Apex\n- Salesforce Admin\n- CI/CD\n- SOSL\nCertifications\n- Salesforce Admin\n- Platform Developer I

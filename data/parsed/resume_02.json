@@ -1,0 +1,39 @@
+{
+  "file_name": "resume_02.txt",
+  "name": "Skills",
+  "contacts": {
+    "email": null,
+    "phone": null
+  },
+  "years_experience": null,
+  "skills": [
+    "einstein",
+    "oauth",
+    "lightning",
+    "service cloud",
+    "lwc",
+    "validation rules",
+    "lightning web components",
+    "triggers",
+    "heroku",
+    "platform developer",
+    "sfdx",
+    "salesforce admin",
+    "jira",
+    "salesforce",
+    "apex",
+    "objects",
+    "dashboards",
+    "ci/cd",
+    "flows",
+    "bitbucket",
+    "rest api",
+    "sales cloud",
+    "workflow",
+    "git",
+    "devops",
+    "integration",
+    "test classes"
+  ],
+  "raw_text": "Aditi Iyer\nEmail: aditi.iyer@example.com | Phone: +91-9868820204\n\nProfile Summary\nSalesforce Engineer with 7 years of experience building scalable solutions on the Salesforce platform. Hands-on with Validation Rules, Bitbucket, Einstein, Test Classes, Dashboards, Heroku, Apex, Service Cloud.\\nExperience\n- Built Lightning Web Components (LWC) and Apex classes for Sales Cloud and Service Cloud.\n- Implemented integrations using REST API and OAuth; deployed via SFDX and CI/CD.\n- Wrote test classes with >85% coverage; used Git and Jira for DevOps workflows.\\nSkills\\n- Validation Rules\\n- Bitbucket\\n- Einstein\\n- Test Classes\\n- Dashboards\\n- Heroku\\n- Apex\\n- Service Cloud\\n- Jira\\n- Salesforce Admin\\n- Objects\\n- Sales Cloud\\n- Triggers\\n- DevOps\\n- Workflow\\nCertifications\\n- Salesforce Admin\\n- Platform Developer I"
+}

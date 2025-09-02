@@ -1,0 +1,37 @@
+{
+  "file_name": "resume_07.txt",
+  "name": "Skills",
+  "contacts": {
+    "email": null,
+    "phone": null
+  },
+  "years_experience": null,
+  "skills": [
+    "oauth",
+    "mulesoft",
+    "lightning",
+    "service cloud",
+    "lwc",
+    "lightning web components",
+    "sosl",
+    "platform developer",
+    "sfdx",
+    "salesforce admin",
+    "jira",
+    "salesforce",
+    "apex",
+    "page layouts",
+    "ci/cd",
+    "flows",
+    "rest api",
+    "sales cloud",
+    "reports",
+    "workflow",
+    "git",
+    "devops",
+    "integration",
+    "test classes",
+    "sharing rules"
+  ],
+  "raw_text": "Aditi Kapoor\nEmail: aditi.kapoor@example.com | Phone: +91-9197613238\n\nProfile Summary\nSalesforce Engineer with 2 years of experience building scalable solutions on the Salesforce platform. Hands-on with Flows, Sales Cloud, Page Layouts, Service Cloud, Jira, Lightning, DevOps, Reports.\\nExperience\n- Built Lightning Web Components (LWC) and Apex classes for Sales Cloud and Service Cloud.\n- Implemented integrations using REST API and OAuth; deployed via SFDX and CI/CD.\n- Wrote test classes with >85% coverage; used Git and Jira for DevOps workflows.\\nSkills\\n- Flows\\n- Sales Cloud\\n- Page Layouts\\n- Service Cloud\\n- Jira\\n- Lightning\\n- DevOps\\n- Reports\\n- SFDX\\n- Sharing Rules\\n- MuleSoft\\n- Apex\\n- Salesforce Admin\\n- CI/CD\\n- SOSL\\nCertifications\\n- Salesforce Admin\\n- Platform Developer I"
+}

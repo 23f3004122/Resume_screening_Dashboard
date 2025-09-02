@@ -1,0 +1,20 @@
+Salesforce Engineer - Job Description
+
+We are seeking a Salesforce Engineer with strong experience in Apex, Lightning (LWC), integrations, and platform customization. The ideal candidate will design and implement scalable solutions on the Salesforce platform, collaborate with cross-functional teams, and ensure best practices in development, testing, and deployment.
+
+Responsibilities:
+- Design, develop, and maintain custom solutions using Apex, Visualforce, and Lightning Web Components (LWC).
+- Build and optimize integrations using REST/SOAP APIs, OAuth, and middleware (e.g., MuleSoft).
+- Implement robust data models, sharing/security models, and automation (Flows, Process Builder).
+- Write unit tests and maintain high code coverage with test classes.
+- Configure and manage Sales Cloud, Service Cloud, and Experience Cloud features.
+- Collaborate with Admins, PMs, and business stakeholders to refine requirements and deliver features iteratively.
+- Use SFDX, Git-based workflows, and CI/CD tools for reliable deployments.
+
+Requirements:
+- 3+ years of hands-on Salesforce development experience.
+- Proficiency in Apex, SOQL, SOSL, and Lightning (LWC).
+- Experience with APIs, integrations, and OAuth.
+- Strong understanding of Salesforce security/sharing, profiles, permission sets.
+- Familiarity with SFDX, scratch orgs, DevOps practices, and unit testing.
+- Salesforce certifications (e.g., Platform Developer I/II, Admin) are a plus.

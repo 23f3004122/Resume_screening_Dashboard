@@ -1,0 +1,8 @@
+Anaya Patel
+Email: anaya.patel@example.com | Phone: +91-9326541099
+
+Profile Summary
+Salesforce Engineer with 6 years of experience building scalable solutions on the Salesforce platform. Hands-on with OAuth, Field Service, Profiles, Git, SFDX, Sales Cloud, MuleSoft, Process Builder.\nExperience
+- Built Lightning Web Components (LWC) and Apex classes for Sales Cloud and Service Cloud.
+- Implemented integrations using REST API and OAuth; deployed via SFDX and CI/CD.
+- Wrote test classes with >85% coverage; used Git and Jira for DevOps workflows.\nSkills\n- OAuth\n- Field Service\n- Profiles\n- Git\n- SFDX\n- Sales Cloud\n- MuleSoft\n- Process Builder\n- Integration\n- Reports\n- Jira\n- Fields\n- Experience Cloud\n- Flows\n- Lightning\nCertifications\n- Salesforce Admin\n- Platform Developer I

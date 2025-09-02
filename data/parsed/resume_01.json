@@ -1,0 +1,43 @@
+{
+  "file_name": "resume_01.txt",
+  "name": "Skills",
+  "contacts": {
+    "email": null,
+    "phone": null
+  },
+  "years_experience": null,
+  "skills": [
+    "record types",
+    "einstein",
+    "oauth",
+    "mulesoft",
+    "lightning",
+    "service cloud",
+    "lwc",
+    "validation rules",
+    "lightning web components",
+    "triggers",
+    "process builder",
+    "platform developer",
+    "sfdx",
+    "soql",
+    "salesforce admin",
+    "jira",
+    "salesforce",
+    "soap api",
+    "apex",
+    "dashboards",
+    "ci/cd",
+    "flows",
+    "field service",
+    "rest api",
+    "sales cloud",
+    "workflow",
+    "git",
+    "devops",
+    "integration",
+    "visualforce",
+    "test classes"
+  ],
+  "raw_text": "Vihaan Sharma\nEmail: vihaan.sharma@example.com | Phone: +91-9896233790\n\nProfile Summary\nSalesforce Engineer with 4 years of experience building scalable solutions on the Salesforce platform. Hands-on with Integration, Einstein, Process Builder, Triggers, Validation Rules, LWC, Jira, SOQL.\\nExperience\n- Built Lightning Web Components (LWC) and Apex classes for Sales Cloud and Service Cloud.\n- Implemented integrations using REST API and OAuth; deployed via SFDX and CI/CD.\n- Wrote test classes with >85% coverage; used Git and Jira for DevOps workflows.\\nSkills\\n- Integration\\n- Einstein\\n- Process Builder\\n- Triggers\\n- Validation Rules\\n- LWC\\n- Jira\\n- SOQL\\n- Visualforce\\n- Dashboards\\n- Field Service\\n- Record Types\\n- MuleSoft\\n- SOAP API\\n- Apex\\nCertifications\\n- Salesforce Admin\\n- Platform Developer I"
+}

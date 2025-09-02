@@ -1,0 +1,8 @@
+Aditi Chopra
+Email: aditi.chopra@example.com | Phone: +91-9313579170
+
+Profile Summary
+Salesforce Engineer with 3 years of experience building scalable solutions on the Salesforce platform. Hands-on with CI/CD, Service Cloud, Validation Rules, Sharing Rules, Apex, OAuth, Profiles, Visualforce.\nExperience
+- Built Lightning Web Components (LWC) and Apex classes for Sales Cloud and Service Cloud.
+- Implemented integrations using REST API and OAuth; deployed via SFDX and CI/CD.
+- Wrote test classes with >85% coverage; used Git and Jira for DevOps workflows.\nSkills\n- CI/CD\n- Service Cloud\n- Validation Rules\n- Sharing Rules\n- Apex\n- OAuth\n- Profiles\n- Visualforce\n- Flows\n- Approval Process\n- SOAP API\n- Integration\n- Workflow\n- Page Layouts\n- Test Classes\nCertifications\n- Salesforce Admin\n- Platform Developer I

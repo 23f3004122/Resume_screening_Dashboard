@@ -1,0 +1,8 @@
+Vihaan Patel
+Email: vihaan.patel@example.com | Phone: +91-9507943839
+
+Profile Summary
+Salesforce Engineer with 2 years of experience building scalable solutions on the Salesforce platform. Hands-on with Platform Developer I, Approval Process, Objects, MuleSoft, SOQL, SFDX, Validation Rules, Flows.\nExperience
+- Built Lightning Web Components (LWC) and Apex classes for Sales Cloud and Service Cloud.
+- Implemented integrations using REST API and OAuth; deployed via SFDX and CI/CD.
+- Wrote test classes with >85% coverage; used Git and Jira for DevOps workflows.\nSkills\n- Platform Developer I\n- Approval Process\n- Objects\n- MuleSoft\n- SOQL\n- SFDX\n- Validation Rules\n- Flows\n- DevOps\n- LWC\n- REST API\n- CI/CD\n- Permission Sets\n- Triggers\n- Record Types\nCertifications\n- Salesforce Admin\n- Platform Developer I

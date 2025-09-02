@@ -1,0 +1,39 @@
+{
+  "file_name": "resume_06.txt",
+  "name": "Skills",
+  "contacts": {
+    "email": null,
+    "phone": null
+  },
+  "years_experience": null,
+  "skills": [
+    "oauth",
+    "mulesoft",
+    "lightning",
+    "service cloud",
+    "lwc",
+    "lightning web components",
+    "process builder",
+    "platform developer",
+    "sfdx",
+    "salesforce admin",
+    "profiles",
+    "jira",
+    "salesforce",
+    "apex",
+    "fields",
+    "ci/cd",
+    "flows",
+    "field service",
+    "rest api",
+    "sales cloud",
+    "reports",
+    "workflow",
+    "experience cloud",
+    "git",
+    "devops",
+    "integration",
+    "test classes"
+  ],
+  "raw_text": "Anaya Patel\nEmail: anaya.patel@example.com | Phone: +91-9326541099\n\nProfile Summary\nSalesforce Engineer with 6 years of experience building scalable solutions on the Salesforce platform. Hands-on with OAuth, Field Service, Profiles, Git, SFDX, Sales Cloud, MuleSoft, Process Builder.\\nExperience\n- Built Lightning Web Components (LWC) and Apex classes for Sales Cloud and Service Cloud.\n- Implemented integrations using REST API and OAuth; deployed via SFDX and CI/CD.\n- Wrote test classes with >85% coverage; used Git and Jira for DevOps workflows.\\nSkills\\n- OAuth\\n- Field Service\\n- Profiles\\n- Git\\n- SFDX\\n- Sales Cloud\\n- MuleSoft\\n- Process Builder\\n- Integration\\n- Reports\\n- Jira\\n- Fields\\n- Experience Cloud\\n- Flows\\n- Lightning\\nCertifications\\n- Salesforce Admin\\n- Platform Developer I"
+}

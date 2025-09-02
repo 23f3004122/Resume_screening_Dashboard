@@ -1,0 +1,8 @@
+Vihaan Sharma
+Email: vihaan.sharma@example.com | Phone: +91-9810026086
+
+Profile Summary
+Salesforce Engineer with 3 years of experience building scalable solutions on the Salesforce platform. Hands-on with REST API, LWC, Einstein, Triggers, DevOps, Heroku, SFDX, CI/CD.\nExperience
+- Built Lightning Web Components (LWC) and Apex classes for Sales Cloud and Service Cloud.
+- Implemented integrations using REST API and OAuth; deployed via SFDX and CI/CD.
+- Wrote test classes with >85% coverage; used Git and Jira for DevOps workflows.\nSkills\n- REST API\n- LWC\n- Einstein\n- Triggers\n- DevOps\n- Heroku\n- SFDX\n- CI/CD\n- Service Cloud\n- Workflow\n- Platform Developer I\n- Field Service\n- Salesforce Admin\n- Process Builder\n- Permission Sets\nCertifications\n- Salesforce Admin\n- Platform Developer I

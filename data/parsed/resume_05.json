@@ -1,0 +1,40 @@
+{
+  "file_name": "resume_05.txt",
+  "name": "Skills",
+  "contacts": {
+    "email": null,
+    "phone": null
+  },
+  "years_experience": null,
+  "skills": [
+    "einstein",
+    "oauth",
+    "lightning",
+    "service cloud",
+    "cpq",
+    "lwc",
+    "validation rules",
+    "lightning web components",
+    "heroku",
+    "sosl",
+    "platform developer",
+    "sfdx",
+    "soql",
+    "salesforce admin",
+    "jira",
+    "salesforce",
+    "apex",
+    "page layouts",
+    "ci/cd",
+    "flows",
+    "rest api",
+    "sales cloud",
+    "reports",
+    "workflow",
+    "git",
+    "devops",
+    "integration",
+    "test classes"
+  ],
+  "raw_text": "Vihaan Chopra\nEmail: vihaan.chopra@example.com | Phone: +91-9781802744\n\nProfile Summary\nSalesforce Engineer with 3 years of experience building scalable solutions on the Salesforce platform. Hands-on with Validation Rules, Integration, Service Cloud, SFDX, DevOps, Heroku, Workflow, Einstein.\\nExperience\n- Built Lightning Web Components (LWC) and Apex classes for Sales Cloud and Service Cloud.\n- Implemented integrations using REST API and OAuth; deployed via SFDX and CI/CD.\n- Wrote test classes with >85% coverage; used Git and Jira for DevOps workflows.\\nSkills\\n- Validation Rules\\n- Integration\\n- Service Cloud\\n- SFDX\\n- DevOps\\n- Heroku\\n- Workflow\\n- Einstein\\n- OAuth\\n- SOSL\\n- Reports\\n- SOQL\\n- Git\\n- Page Layouts\\n- CPQ\\nCertifications\\n- Salesforce Admin\\n- Platform Developer I"
+}

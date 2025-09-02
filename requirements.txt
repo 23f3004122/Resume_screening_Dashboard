@@ -1,0 +1,8 @@
+pdfminer.six
+python-docx
+pandas
+scikit-learn
+streamlit
+nltk
+numpy   
+
