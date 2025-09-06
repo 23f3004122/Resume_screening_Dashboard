@@ -14,7 +14,12 @@ def main():
         "--resume_dir data/resumes "
         "--output_dir data/parsed"
     )
-
+     
+    run_command(
+    "python support/feature_extraction.py "
+    "--parsed_dir data/parsed "
+    "--output_dir data/features"
+    )
     # 2. Match and rank
     run_command(
     "python support/match_and_rank.py "

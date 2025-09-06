@@ -16,7 +16,7 @@ def parse_resume(file_path: str) -> Dict[str, Any]:
         text = normalize_text(text) #normalize the text
 
         data = {
-            "file_name": os.path.basename(file_path), #get the base name of the file
+            "file_name": os.path.basename(file_path), #just the file name, not full path
             "name": guess_name(text), #guess the name from the text
             "contacts": extract_contacts(text), #extract contacts from the text
             "years_experience": extract_years_experience(text), #extract years of experience from the text
@@ -36,7 +36,7 @@ def main():
         parsed = parse_resume(path) #parse the resume
 
         # Save individual JSON
-        out_path = os.path.join(OUTPUT_DIR, f"{os.path.splitext(resume)[0]}.json")
+        out_path = os.path.join(OUTPUT_DIR, f"{os.path.splitext(resume)[0]}.json") #Taking the file name without extension and adding .json
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(parsed, f, indent=2)
 

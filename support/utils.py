@@ -2,14 +2,14 @@ import re
 import os
 from typing import List, Dict, Any
 
-def try_import_pdf():
+def try_import_pdf(): #Try to import pdfminer.six
     try:
         from pdfminer.high_level import extract_text as pdf_extract_text
         return pdf_extract_text
     except Exception:
         return None
 
-def try_import_docx():
+def try_import_docx(): #Try to import python-docx
     try:
         import docx
         return docx
@@ -56,32 +56,32 @@ def read_text_from_file(path: str) -> str:
         pdf_reader = try_import_pdf()
         if pdf_reader is None:
             raise ImportError("pdfminer.six is not installed. Install requirements.txt")
-        return pdf_reader(path)
+        return pdf_reader(path) # Extract text from PDF
     elif path_lower.endswith(".docx"):
         docx = try_import_docx()
         if docx is None:
             raise ImportError("python-docx is not installed. Install requirements.txt")
-        doc = docx.Document(path)
-        return "\n".join(p.text for p in doc.paragraphs)
+        doc = docx.Document(path) # Extract text from DOCX
+        return "\n".join(p.text for p in doc.paragraphs) 
     else:
         with open(path, "r", encoding="utf-8", errors="ignore") as f:
-            return f.read()
+            return f.read() # Fallback to plain text
 
 
-def normalize_text(text: str) -> str:
-    text = text.replace("\x00", " ")
-    text = re.sub(r"\s+", " ", text)
+def normalize_text(text: str) -> str: # Clean and normalize text
+    text = text.replace("\x00", " ") # Remove null bytes , sometimes in PDFs
+    text = re.sub(r"\s+", " ", text) # Remove extra whitespace
     return text.strip()
 
 
 def tokenize(text: str) -> List[str]:
-    tokens = re.findall(r"[A-Za-z][A-Za-z\-+/#]*", text.lower())
-    return [t for t in tokens if t not in STOPWORDS]
+    tokens = re.findall(r"[A-Za-z][A-Za-z\-+/#]*", text.lower()) # Alphanumeric tokens with some punctuation
+    return [t for t in tokens if t not in STOPWORDS] # Remove stopwords
 
 
 # -------------------- EXTRACTION --------------------
 def extract_contacts(text: str) -> Dict[str, Any]:
-    cleaned = re.sub(r"(Email|E-mail|Mail|Phone|Mobile)[:\s]+", " ", text, flags=re.I)
+    cleaned = re.sub(r"(Email|E-mail|Mail|Phone|Mobile)[:\s]+", " ", text, flags=re.I) # Remove common prefixes , re.I for case insensitive
 
     emails = EMAIL_RE.findall(cleaned)
     phones = PHONE_RE.findall(cleaned)
@@ -92,23 +92,23 @@ def extract_contacts(text: str) -> Dict[str, Any]:
     }
 
 
-def guess_name(text: str) -> str:
+def guess_name(text: str) -> str: 
     lines = text.split("\n")
-    bad_headers = {"resume", "curriculum vitae", "cv", "profile", "summary"}
+    bad_headers = {"resume", "curriculum vitae", "cv", "profile", "summary"} # Common non-name headers
     for line in lines:
         line = line.strip()
         if not line:
             continue
         # only alphabetic + space + small punctuation
-        if all(c.isalpha() or c.isspace() or c in "-.'" for c in line):
+        if all(c.isalpha() or c.isspace() or c in "-.'" for c in line): #This prevents names with numbers or special characters
             tokens = line.split()
-            if 1 <= len(tokens) <= 4 and all(len(t) > 1 for t in tokens):
+            if 1 <= len(tokens) <= 4 and all(len(t) >= 1 for t in tokens):
                 if line.lower() not in bad_headers:
                     return line
     return None
 
 
-def extract_years_experience(text: str) -> float:
+def extract_years_experience(text: str) -> float: # Extract years of experience, like 2 years, 3.5 years, 5+ years
     matches = re.findall(r"(\d+(?:\.\d+)?)\s*\+?\s*years?", text, flags=re.I)
     if matches:
         try:
